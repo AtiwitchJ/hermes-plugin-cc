@@ -1,8 +1,5 @@
 # Hermes Agent plugin for Claude Code
 
-> **Scaffold status:** the companion script and CLI wrapper are not implemented yet.
-> See [`../kilo-plugin-cc`](../kilo-plugin-cc) for a complete reference implementation.
-
 This plugin is for Claude Code users who want to delegate code reviews or tasks to the
 Hermes Agent CLI ([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/)).
 
