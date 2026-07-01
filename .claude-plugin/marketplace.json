@@ -1,0 +1,17 @@
+{
+  "name": "agents-plugin-cc-hermes",
+  "owner": { "name": "agents-plugin-cc" },
+  "metadata": {
+    "description": "Claude Code plugin for delegating work to Hermes Agent.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "hermes",
+      "description": "Use Hermes Agent from Claude Code to review code or delegate tasks.",
+      "version": "0.1.0",
+      "author": { "name": "agents-plugin-cc" },
+      "source": "./plugins/hermes"
+    }
+  ]
+}
