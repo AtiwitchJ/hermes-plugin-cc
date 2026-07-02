@@ -1,0 +1,24 @@
+{
+  "name": "hermes",
+  "version": "0.1.0",
+  "description": "Use Hermes to review code or delegate tasks.",
+  "author": {
+    "name": "agents-plugin-cc"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["hermes", "agent", "review", "delegation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Hermes",
+    "shortDescription": "Delegate coding work to Hermes.",
+    "longDescription": "Run Hermes setup, reviews, tasks, status checks, results, cancellation, and transfer flows through the bundled companion runtime.",
+    "developerName": "agents-plugin-cc",
+    "category": "Productivity",
+    "capabilities": ["Code review", "Task delegation", "Background jobs"],
+    "defaultPrompt": [
+      "Review my local changes with Hermes.",
+      "Ask Hermes to investigate this bug.",
+      "Show Hermes job status."
+    ]
+  }
+}
